@@ -1,12 +1,13 @@
 body {
-	background-color: darkslategrey;
+	background-color: #014758;
 	font-size: 100%
 }
 
 #title {
-	color: white;
+	color: #46C68F;
 	font-size: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Dancing Script', cursive;
+	background-image: url("background.jpg");
 }
 
 #mainColumn {
@@ -15,22 +16,41 @@ body {
 }
 #nav {
 	width: 20%;
-	float: left;
-	background: lightgrey;
-	padding: 0 .25em;
+	float:right;
+	background: #0C8E93;
+	padding: .5em;
+}
+#nav a {
+	color: #F6F4F9;
+}
+#nav a:hover {
+	color: #C9FB36;
 }
 #nav h2{
-	font-size:1em;
+	font-size:2em;
+	color: #C9FB36;
+	font-family: 'Dancing Script', cursive;
+}
+a { 
+	color: #0C8E93;
+	text-decoration: none;
+	font-family: 'Alegreya', serif;
+}
+a:hover {
+	text-decoration: underline;
+	color: #46C68F;
 }
 #content {
 	float: left;
 	width: 75%;
 	background-color: white;
 	padding: 1em;
-	font-family: serif;
+	font-family: 'Alegreya', serif;
+	color: #014758;
 }
 #illustration {
 	text-align: center;
 	float: right;
+	color: #46C68F;
 }
 
